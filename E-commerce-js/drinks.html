@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
+</head>
+<style>
+    .container .card{
+        transition: all ease 0.5s;
+    }
+    .card:hover{
+        box-shadow: 6px 8px 25px rgba(0, 0, 0, 0.5);
+        transition: all ease 0.5s;
+    }
+    .ii{
+        opacity: 1;
+    }
+    #box2 img{
+    width: 34%;
+    }
+    #footer3{ 
+    position: absolute;
+    left: 40%;
+    }
+        footer{
+        height: 80px;
+    }
+
+</style>
+<body>
+        <div class="loader-container" style="display: flex">
+      <div class="spinner"></div>
+    </div>
+      <div id="full-sc">
+      <div id="pos-input">
+         <input type="text" class="searchtext" placeholder="Type To Search..." />
+    </div>
+    <div id="icon2">
+ <i class="fa-sharp fa-solid fa-xmark"></i>
+    </div>
+      </div>
+        <header>
+        <div id="naibHeader">
+            <div id="Text" class="animate__animated animate__backInLeft" >
+            <a href="Home.html">
+            <h1>Genius</h1>
+            <h1>Resturant</h1>
+        </a>
+        </div>
+        <nav>
+            <ul>
+                <li class="animate__animated animate__rubberBand"><a href="Food.html">Foods</a></li>
+                <li class="animate__animated animate__rubberBand"><a href="#" >Drinks MAKERS</a></li>
+                <li class="animate__animated animate__rubberBand"><a href="./Branches.html" >BRANCHES</a></li>
+                <li class="animate__animated animate__rubberBand"><a href="./Customer.html" >Customer Reviews</a></li>
+                <li class="animate__animated animate__rubberBand"><a href="./Contact.html" >CONTACT</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div id="icon">
+            <div class="searchIcon">     
+            <a href="#" class="searchbtn">
+            <i class="fa fa-search icon1" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</header>
+
+
+
+    <main>
+        <div id="thead">
+            <h4>Our Menu</h4>
+            <h2>TODAY'S SPEICALITY</h2>
+        </div>
+        <div class="container">
+            <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">20.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+           <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img style="aspect-ratio: 1.4 / 1;" src="https://www.foodandwine.com/thmb/6wTm7a0y87X97LK-ZMxe2787kI8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/different-types-of-tea-FT-BLOG0621-7c7fd231e66d4fea8ca9a47cad52ba79.jpg" alt="">
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Green Tea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">30.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img style="aspect-ratio: 1.4 / 1;" src="https://static.toiimg.com/thumb/msid-70702395,width-1280,height-720,resizemode-4/70702395.jpg" alt="">
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Tea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">32.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+               <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://t4.ftcdn.net/jpg/02/87/90/01/360_F_287900193_uu8JNdIc4fgjNudKwpcjsZmOLKIPqS2b.jpg" alt="">
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Black Coffee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">48.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://5.imimg.com/data5/GD/YP/UB/SELLER-30158689/banana-juice-500x500.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Banana Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">40.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+             <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://vegboxfresh.co.uk/cdn/shop/products/AppleJuice_f42254d5-a00c-4e3e-b695-9d70bbf194d2_800x.jpg?v=1604669333" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Apple Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">58.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+             <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://kfoods.com/images1/newrecipeicon/strawberries-juice_11849.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Stawbery Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">60.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2022/07/Mango-Juice-Recipe.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Mango Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">36.21</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://thumbs.dreamstime.com/b/lemon-juice-fresh-mint-glass-wooden-background-44544296.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Lemon Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">10.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://www.whiskaffair.com/wp-content/uploads/2021/04/Pomegranate-Juice-2-3.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Aanaar Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">40.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+                        <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://hamariweb.com/recipes/images/recipeimages/8946.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Faalsa Juice</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">30.31</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <div class="card" data-aos="fade-up">
+            <div class="con-img">
+                <img src="https://images.eatsmarter.com/sites/default/files/styles/1600x1200/public/fruity-milkshakes-624708.jpg" alt=""/>
+            </div>
+            <div class="icons">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <h3>Milk Shake</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/></p>
+                <div class="Items2">
+                    <button class="AddItm">Add To Cart</button>
+                    <div style="display: flex;">
+                    <span>$ <span id="span">60.20</span></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="sec">
+      <div id="cart" data-aos="zoom-in">
+         <div class="ico2">
+ <i class="fa-sharp fa-solid fa-xmark"></i>
+    </div>
+        <div class="cartUnder">
+            <h2>Item</h2>
+            <h2>Name</h2>
+            <h2>Price</h2>
+            <h2>Quantity</h2>
+            <h2>Remove</h2>
+        </div>
+        <div class="cartUnder">
+            <div class="divUnder" data-aos="zoom-in">
+          <!-- <div class="dinUnderDivs">
+         <img src="./img/ice.jpg" alt="" />
+            <h2>Qorma</h2>
+            <h2>$28.22</h2>
+          <input type="number" >
+          <button>Remove</button>
+          </div> -->
+        </div>
+        </div>
+        <div class="underBtnWithSpan">
+        <button class="Clear-btn">Clear All</button> 
+        <div style="display: flex;">
+    <span class="totalPrice">0</span>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <footer>
+    <div id="box2">
+    <div id="footer2">
+        <div id="box1">
+            <i class="fa-brands fa-facebook"></i>
+            <h3>
+            <a href="https://www.facebook.com/profile.php?id=61552808664437" target="_blank">Hafiz Azan</a>
+        </h3>  
+        </div>
+          <div id="box1">
+           <i class="fa-brands fa-instagram"></i>
+            <h3>
+            <a href="https://www.instagram.com/azzujimmy.786/" target="_blank">azzujimmy.786</a>
+        </h3>  
+        </div>
+          <div id="box1">
+            <i class="fa-brands fa-linkedin"></i>
+            <h3>
+            <a href="https://www.linkedin.com/in/azan-khan-5337a229b/">Azan Khan</a>
+        </h3>  
+        </div>
+    </div>
+    </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+    <script>
+  AOS.init();
+</script>
+</html>
